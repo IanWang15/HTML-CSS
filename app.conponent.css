@@ -1,0 +1,67 @@
+html, body, #background { position: relative; min-height: 100vh; min-width: 100vw; background-color: #48ff94;}
+
+.signContainer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 260px;
+  border: 1px solid #cbcbcb;
+  background-color: white;
+  font-family: "Arial"
+}
+
+.signWindow1 {
+  margin: auto;
+  transform: translate(0, 20px);
+  width: 330px;
+  height: 27px;
+  color: grey;
+  padding: 15px 12px 12px 12px;
+  background-color: rgba(211, 211, 211, 0.44);
+/*border: 1px solid red;*/
+}
+
+.signWindow2 {
+  margin: auto;
+  transform: translate(0, 30px);
+  width: 330px;
+  height: 27px;
+  color: grey;
+  padding: 15px 12px 12px 12px;
+  background-color: rgba(211, 211, 211, 0.44);
+/*border: 1px solid red;*/
+}
+
+.signWindow3 {
+  margin: auto;
+  transform: translate(0, 40px);
+  width: 330px;
+  height: 27px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px 12px 12px 12px;
+  background-color: #12801a;
+/*border: 1px solid red;*/
+}
+.signWindow4 {
+   margin: auto;
+   transform: translate(0, 43px);
+   width: 330px;
+   height: 20px;
+   font-size: 14px;
+   text-align: center;
+   padding: 12px 12px 12px 12px;
+   background-color: white;
+/*border: 1px solid red;*/
+ }
+
+.text1 {
+  color: grey
+}
+
+.text2 {
+  color: green;
+}
